@@ -1,0 +1,56 @@
+nav{
+    height: 4.5em;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.344);
+}
+.logo{
+    height: 50px;
+    margin-left: 1em;
+}
+.buttons-nav{  
+    width: 8em;
+    text-align: center;
+    font-size:medium;
+}
+.nav-hover:hover{
+    transition: .5s ease;
+    cursor: pointer;
+    color: white;
+    background-color: #f9a307;
+    border-radius: .5em;
+}
+.nav-list:hover ul{
+    background-color: #ffcb0f;
+    color: white;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding: 0;
+    margin-left: -1em;
+    width: 10em;
+    border-radius: .2em;
+    text-align: center;
+}
+#menu-icon {
+    font-size: 1.5em;
+    cursor: pointer;
+    position: absolute;
+    right: -10px;
+}
+.menu.active{
+    right: -100%;
+    color: white;
+    display: block;
+    right: 5em;    
+    top: .2em;
+    position: absolute;
+    background-color: #ffcb0f;
+    border-radius: .2em;
+    padding: 0;
+    transition: left 0.5s ease;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
