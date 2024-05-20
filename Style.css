@@ -186,7 +186,8 @@
     margin-left: 4em;
 }
 .section{
-    width: 100%;
+    margin: auto;
+    width: 99%;
     text-align: center;
 }
 .title_section{
